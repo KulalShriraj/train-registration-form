@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: cursive;
+        }
+
+        .div1 {
+            background-color: red;
+            height: 250px;
+
+        }
+
+        .div1 img {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 25px;
+
+
+        }
+
+        .div1 h2 {
+            display: inline-block;
+            position: absolute;
+            color: white;
+            margin-top: 60px;
+        }
+
+        .div1 li {
+            display: inline-block;
+            padding: 20px;
+            margin-left: -23px;
+        }
+
+        .div1 li:hover {
+            color: yellow;
+            transition: 0.5s;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+
+
+
+        }
+
+        .div2 {
+            height: 791px;
+            background-image: url("https://images.unsplash.com/photo-1547049796-d5db10692892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJhaW4lMjB0cmFja3xlbnwwfHwwfHw%3D&w=1000&q=80");
+            background-repeat: no-repeat;
+            background-size: 1550px 791px;
+            padding-right: 2px;
+            border: 1px solid black;
+
+        }
+
+        .div3 {
+
+            margin: 49px;
+            background-color: red;
+            border: 1px solid black;
+            opacity: 0.6;
+            height: 700px;
+        }
+
+        .div3:hover {
+            /*background-color: rgb(24, 15, 153);*/
+            cursor: pointer;
+
+             background: linear-gradient(to left,blue , yellow); 
+        }
+
+        .bottom {
+            background-color: red;
+            height: 350px;
+        }
+
+        .bottom img {
+            height: 300px;
+            width: 330px;
+            margin: 0;
+        }
+
+        .div3 {
+            padding-left: 50px;
+
+        }
+
+        .div3 button {
+            background-color: white;
+            height: 50px;
+            width: 100px;
+
+        }
+
+        .div3 button:hover {
+            background-color: yellow;
+            transition: 0.5s;
+
+        }
+        input[type="text"]{
+            border: 4px double red;
+            color:black;
+
+        }
+        textarea{
+            border: 3px double red;
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="div1">
+        <img src="sk.png" alt="">
+        <h2>INDIAN RAILWAY</h2>
+        <ul>
+            <li>INDIA</li>
+            <li>HOME</li>
+            <li>TRAIN</li>
+            <li>HELP</li>
+        </ul>
+        <div class="div2">
+            <div class="div3">
+                <h1 style="padding-left:10px;font:30px;">Registration Form</h1>
+                <form action="#" method="get">
+                    <br>
+
+                    <h3>name:<input type="text" placeholder="hello"></h3>
+                    <h3 style="padding-left: 20px;">age:<input type="text" placeholder="hello"></h3>
+                    <h3> Gender</h3>
+                    <h3 style="display:inline ;padding-left: 60px;">Female<input name="gendr" type="radio" id="f"></h4>
+                        <h4 style="display:inline ;margin: 20px;">Male<input name="gendr" type="radio" id="f">
+                    </h3>
+                    <h3>E-mail:<input type="text" placeholder="abcd@gmail.com"></h3>
+                    <h3>address:</h3><textarea name="textarea" rows="5" cols="50">Write something here</textarea>
+
+                    <br><br>
+
+                    Nationality:<select>
+                        <option value="1" selected required>INDIA</option>
+                        <option>AMERICA</option>
+
+                        <option>FRANCE</option>
+                    </select><br><br><br>
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">RESET</button>
+
+
+                </form>
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="bottom">
+
+            <img src="train2.png" alt="">
+            <center>
+                <h3>Copyright &copy Indian Railway Pvt.Ltd</h3>
+            </center>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
